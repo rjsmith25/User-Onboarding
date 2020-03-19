@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.OnboardForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.OnboardForm h2 {
+  text-align: center;
+  color: blue;
+}
+
+.OnboardForm label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.OnboardForm input {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.onboardSubmit {
+  font-size: 14px;
+  width: 150px;
+  background-color: blue;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.createdUsers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.user {
+  width: 27%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.user:nth-child(3n) {
+  margin-right: 0;
+}
+
+.errors {
+  color: red;
+}
